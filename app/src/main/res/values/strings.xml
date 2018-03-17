@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">Meteorology Quiz</string>
+    <string name="submitButton">Score Me!</string>
+    <string name="resetButton">Reset</string>
+    <!--Toast Message-->
+    <string name="scoreMessage">"You scored %1$d out of 6.</string>
+
+    <!-- Question One and radio button options -->
+    <string name="question1">1: ___________ is an area’s average weather over a long period.</string>
+    <string name="q1rb1">A season</string>
+    <string name="q1rb2">Temperature</string>
+    <string name="q1rb3">Climate</string>
+    <string name="q1rb4">A temperate zone</string>
+
+    <!-- Question Two and radio button options -->
+    <string name="question2">2: What is NOT used to describe climate?</string>
+    <string name="q2rb1">Air temperature</string>
+    <string name="q2rb2">Winds</string>
+    <string name="q2rb3">Moisture</string>
+    <string name="q2rb4">Energy use</string>
+
+    <!-- Question Three and radio button options -->
+    <string name="question3">3: ____________refers to the present state of the atmosphere.</string>
+    <string name="q3rb1">Climate</string>
+    <string name="q3rb2">Weather</string>
+    <string name="q3rb3">Humidity</string>
+    <string name="q3rb4">Dew point</string>
+
+    <!-- Question Four and radio button options -->
+    <string name="question4">4: Which of the following is NOT a factor that influences temperature?</string>
+    <string name="q4rb1">Latitude</string>
+    <string name="q4rb2">Distance from large bodies of water</string>
+    <string name="q4rb3">Ocean currents</string>
+    <string name="q4rb4">All of these are factors that influence temperature</string>
+
+<!--    &lt;!&ndash; Question  and radio button options &ndash;&gt;
+    <string name="question">: </string>
+    <string name="qrb1"></string>
+    <string name="qrb2"></string>
+    <string name="qrb3"></string>
+    <string name="qrb4"></string>-->
+
+    <!-- Question Five and checkboxes options -->
+    <string name="question5">5: Which of the following can be used to discover or infer ancient climates of Earth?</string>
+    <string name="q5cb1">The fossil record</string> <!--Correct answer-->
+    <string name="q5cb2">Ocean sediments</string> <!--Correct answer-->
+    <string name="q5cb3">Ice cores</string> <!--Correct answer-->
+    <string name="q5cb4">Historical records</string>
+
+    <!--Question Six, Edit Text -->
+    <string name="hint_text">(one word)</string>
+    <string name="question6">6. What layer of the atmosphere does weather occur?</string>
+        <!--Correct answer: second degree-->
+
+
+
+
+</resources>
