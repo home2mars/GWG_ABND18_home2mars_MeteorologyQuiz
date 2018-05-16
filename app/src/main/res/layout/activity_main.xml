@@ -21,6 +21,7 @@
         android:layout_height="wrap_content"
         android:scaleType="fitXY"
         android:src="@drawable/meteorology" />
+    <!--source: https://www.pexels.com/photo/white-lightning-heating-mountain-53459/ -->
 
     <!--Question 1-->
     <TextView
@@ -31,7 +32,7 @@
         android:paddingLeft="@dimen/activity_horizontal_margin"
         android:paddingRight="@dimen/activity_horizontal_margin"
         android:paddingTop="@dimen/activity_vertical_margin"
-        android:textSize="18sp"
+        android:textSize="@dimen/quizQuestionTextSize"
         android:text="@string/question1" />
 
     <RadioGroup
@@ -49,7 +50,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:checked="false"
-            android:textSize="16sp"
+            android:textSize="@dimen/quizChoicesTextSize"
             android:text="@string/q1rb1" />
 
         <RadioButton
@@ -57,7 +58,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:checked="false"
-            android:textSize="16sp"
+            android:textSize="@dimen/quizChoicesTextSize"
             android:text="@string/q1rb2" />
 
         <RadioButton
@@ -65,7 +66,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:checked="false"
-            android:textSize="16sp"
+            android:textSize="@dimen/quizChoicesTextSize"
             android:text="@string/q1rb3" />
 
         <RadioButton
@@ -73,7 +74,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:checked="false"
-            android:textSize="16sp"
+            android:textSize="@dimen/quizChoicesTextSize"
             android:text="@string/q1rb4" />
 
     </RadioGroup>
@@ -88,7 +89,7 @@
         android:paddingLeft="@dimen/activity_horizontal_margin"
         android:paddingRight="@dimen/activity_horizontal_margin"
         android:paddingTop="@dimen/activity_vertical_margin"
-        android:textSize="18sp"
+        android:textSize="@dimen/quizQuestionTextSize"
         android:text="@string/question2" />
 
     <RadioGroup
@@ -106,7 +107,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:checked="false"
-            android:textSize="16sp"
+            android:textSize="@dimen/quizChoicesTextSize"
             android:text="@string/q2rb1" />
 
         <RadioButton
@@ -114,7 +115,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:checked="false"
-            android:textSize="16sp"
+            android:textSize="@dimen/quizChoicesTextSize"
             android:text="@string/q2rb2" />
 
         <RadioButton
@@ -122,7 +123,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:checked="false"
-            android:textSize="16sp"
+            android:textSize="@dimen/quizChoicesTextSize"
             android:text="@string/q2rb3" />
 
         <RadioButton
@@ -130,7 +131,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:checked="false"
-            android:textSize="16sp"
+            android:textSize="@dimen/quizChoicesTextSize"
             android:text="@string/q2rb4" />
 
     </RadioGroup>
@@ -145,7 +146,7 @@
         android:paddingLeft="@dimen/activity_horizontal_margin"
         android:paddingRight="@dimen/activity_horizontal_margin"
         android:paddingTop="@dimen/activity_vertical_margin"
-        android:textSize="18sp"
+        android:textSize="@dimen/quizQuestionTextSize"
         android:text="@string/question3" />
 
     <RadioGroup
@@ -163,7 +164,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:checked="false"
-            android:textSize="16sp"
+            android:textSize="@dimen/quizChoicesTextSize"
             android:text="@string/q3rb1" />
 
         <RadioButton
@@ -171,7 +172,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:checked="false"
-            android:textSize="16sp"
+            android:textSize="@dimen/quizChoicesTextSize"
             android:text="@string/q3rb2" />
 
         <RadioButton
@@ -179,7 +180,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:checked="false"
-            android:textSize="16sp"
+            android:textSize="@dimen/quizChoicesTextSize"
             android:text="@string/q3rb3" />
 
         <RadioButton
@@ -187,7 +188,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:checked="false"
-            android:textSize="16sp"
+            android:textSize="@dimen/quizChoicesTextSize"
             android:text="@string/q3rb4" />
 
     </RadioGroup>
@@ -202,7 +203,7 @@
         android:paddingLeft="@dimen/activity_horizontal_margin"
         android:paddingRight="@dimen/activity_horizontal_margin"
         android:paddingTop="@dimen/activity_vertical_margin"
-        android:textSize="18sp"
+        android:textSize="@dimen/quizQuestionTextSize"
         android:text="@string/question4" />
 
     <RadioGroup
@@ -220,7 +221,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:checked="false"
-            android:textSize="16sp"
+            android:textSize="@dimen/quizChoicesTextSize"
             android:text="@string/q4rb1" />
 
         <RadioButton
@@ -228,7 +229,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:checked="false"
-            android:textSize="16sp"
+            android:textSize="@dimen/quizChoicesTextSize"
             android:text="@string/q4rb2" />
 
         <RadioButton
@@ -236,7 +237,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:checked="false"
-            android:textSize="16sp"
+            android:textSize="@dimen/quizChoicesTextSize"
             android:text="@string/q4rb3" />
 
         <RadioButton
@@ -244,7 +245,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:checked="false"
-            android:textSize="16sp"
+            android:textSize="@dimen/quizChoicesTextSize"
             android:text="@string/q4rb4" />
 
     </RadioGroup>
@@ -259,35 +260,35 @@
         android:paddingLeft="@dimen/activity_horizontal_margin"
         android:paddingRight="@dimen/activity_horizontal_margin"
         android:paddingTop="@dimen/activity_vertical_margin"
-        android:textSize="18sp"
+        android:textSize="@dimen/quizQuestionTextSize"
         android:text="@string/question5" />
 
     <CheckBox
         android:id="@+id/q5cb1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="16sp"
+        android:textSize="@dimen/quizChoicesTextSize"
         android:text="@string/q5cb1" />
 
     <CheckBox
         android:id="@+id/q5cb2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="16sp"
+        android:textSize="@dimen/quizChoicesTextSize"
         android:text="@string/q5cb2" />
 
     <CheckBox
         android:id="@+id/q5cb3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="16sp"
+        android:textSize="@dimen/quizChoicesTextSize"
         android:text="@string/q5cb3" />
 
     <CheckBox
         android:id="@+id/q5cb4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="16sp"
+        android:textSize="@dimen/quizChoicesTextSize"
         android:text="@string/q5cb4" />
 
 
@@ -300,23 +301,23 @@
         android:paddingLeft="@dimen/activity_horizontal_margin"
         android:paddingRight="@dimen/activity_horizontal_margin"
         android:paddingTop="@dimen/activity_vertical_margin"
-        android:textSize="18sp"
+        android:textSize="@dimen/quizQuestionTextSize"
         android:text="@string/question6" />
 
     <EditText
         android:id="@+id/answer6"
-        android:layout_width="200dp"
+        android:layout_width="@dimen/editTextWidth"
         android:layout_height="wrap_content"
         android:hint="@string/hint_text"
         android:inputType="text"
-        android:textSize="16sp" />
+        android:textSize="@dimen/quizChoicesTextSize" />
 
 
     <!--just to give a gap-->
     <View
         android:layout_width="match_parent"
-        android:layout_height="24dp"
-        android:layout_marginTop="16dp" />
+        android:layout_height="@dimen/big_padding"
+        android:layout_marginTop="@dimen/activity_vertical_margin" />
 
     <!--Submit and Reset buttons-->
     <RelativeLayout
@@ -334,7 +335,7 @@
             android:layout_margin="@dimen/activity_horizontal_margin"
             android:onClick="resetQuiz"
             android:text="@string/resetButton"
-            android:textSize="16sp" />
+            android:textSize="@dimen/quizChoicesTextSize" />
 
         <Button
             android:id="@+id/submitButton"
@@ -346,7 +347,7 @@
             android:layout_margin="@dimen/activity_horizontal_margin"
             android:onClick="scoreQuiz"
             android:text="@string/submitButton"
-            android:textSize="16sp" />
+            android:textSize="@dimen/quizChoicesTextSize" />
     </RelativeLayout>
 
 

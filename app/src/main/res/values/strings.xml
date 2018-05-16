@@ -33,13 +33,6 @@
     <string name="q4rb3">Ocean currents</string>
     <string name="q4rb4">All of these are factors that influence temperature</string>
 
-<!--    &lt;!&ndash; Question  and radio button options &ndash;&gt;
-    <string name="question">: </string>
-    <string name="qrb1"></string>
-    <string name="qrb2"></string>
-    <string name="qrb3"></string>
-    <string name="qrb4"></string>-->
-
     <!-- Question Five and checkboxes options -->
     <string name="question5">5: Which of the following can be used to discover or infer ancient climates of Earth?</string>
     <string name="q5cb1">The fossil record</string> <!--Correct answer-->
@@ -50,9 +43,6 @@
     <!--Question Six, Edit Text -->
     <string name="hint_text">(one word)</string>
     <string name="question6">6. What layer of the atmosphere does weather occur?</string>
-        <!--Correct answer: second degree-->
-
-
-
+    <!--Correct answer: troposphere-->
 
 </resources>
