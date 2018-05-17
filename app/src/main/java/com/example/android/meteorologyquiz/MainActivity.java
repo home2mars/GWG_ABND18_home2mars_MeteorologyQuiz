@@ -49,14 +49,13 @@ public class MainActivity extends AppCompatActivity {
         int finalScore = checkAnswers();
 
         if (finalScore < 3) {
-            Toast.makeText(this, getString(R.string.tryAgainMessage), Toast.LENGTH_SHORT).show();
-            score = 0;
+            Toast.makeText(this, String.format(getString(R.string.tryAgainMessage), finalScore), Toast.LENGTH_SHORT).show();
         } else {
             Button submitButton = findViewById(R.id.submitButton);
             submitButton.setEnabled(false);
             Toast.makeText(this, String.format(getString(R.string.scoreMessage), finalScore), Toast.LENGTH_SHORT).show();
-            score = 0;
         }
+        score = 0;
     }
 
     /**
