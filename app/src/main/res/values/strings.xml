@@ -4,6 +4,7 @@
     <string name="resetButton">Reset</string>
     <!--Toast Message-->
     <string name="scoreMessage">"You scored %1$d out of 6.</string>
+    <string name="tryAgainMessage">"You can do better than that!  Try again."</string>
 
     <!-- Question One and radio button options -->
     <string name="question1">1: ___________ is an area’s average weather over a long period.</string>
